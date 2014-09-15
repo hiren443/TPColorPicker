@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BEBD6B71999E5E3002C5AD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEBD6B61999E5E3002C5AD1 /* Foundation.framework */; };
+		4BEBD6B91999E5E3002C5AD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEBD6B81999E5E3002C5AD1 /* CoreGraphics.framework */; };
+		4BEBD6BB1999E5E3002C5AD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEBD6BA1999E5E3002C5AD1 /* UIKit.framework */; };
+		4BEBD6C11999E5E3002C5AD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BEBD6BF1999E5E3002C5AD1 /* InfoPlist.strings */; };
+		4BEBD6C31999E5E3002C5AD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEBD6C21999E5E3002C5AD1 /* main.m */; };
+		4BEBD6C71999E5E3002C5AD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEBD6C61999E5E3002C5AD1 /* AppDelegate.m */; };
+		4BEBD6C91999E5E3002C5AD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BEBD6C81999E5E3002C5AD1 /* Images.xcassets */; };
+		4BEBD6D01999E5E3002C5AD1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEBD6CF1999E5E3002C5AD1 /* XCTest.framework */; };
+		4BEBD6D11999E5E3002C5AD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEBD6B61999E5E3002C5AD1 /* Foundation.framework */; };
+		4BEBD6D21999E5E3002C5AD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEBD6BA1999E5E3002C5AD1 /* UIKit.framework */; };
+		4BEBD6DA1999E5E3002C5AD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BEBD6D81999E5E3002C5AD1 /* InfoPlist.strings */; };
+		4BEBD6DC1999E5E3002C5AD1 /* TPColorPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEBD6DB1999E5E3002C5AD1 /* TPColorPickerTests.m */; };
+		4BEBD6E81999E5FC002C5AD1 /* RootViewCntrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEBD6E61999E5FC002C5AD1 /* RootViewCntrl.m */; };
+		4BEBD6E91999E5FC002C5AD1 /* RootViewCntrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BEBD6E71999E5FC002C5AD1 /* RootViewCntrl.xib */; };
+		4BEBD6ED1999F392002C5AD1 /* PickerViewCntrlr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEBD6EB1999F392002C5AD1 /* PickerViewCntrlr.m */; };
+		4BEBD6EE1999F392002C5AD1 /* PickerViewCntrlr.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BEBD6EC1999F392002C5AD1 /* PickerViewCntrlr.xib */; };
+		4BEBD6F31999F401002C5AD1 /* nko_brightness_guide.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BEBD6F01999F401002C5AD1 /* nko_brightness_guide.png */; };
+		4BEBD6F41999F401002C5AD1 /* nko_brightness_guide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BEBD6F11999F401002C5AD1 /* nko_brightness_guide@2x.png */; };
+		4BEBD6F51999F401002C5AD1 /* nko_colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BEBD6F21999F401002C5AD1 /* nko_colormap.png */; };
+		4BEBD6F81999F406002C5AD1 /* NKOColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEBD6F71999F406002C5AD1 /* NKOColorPickerView.m */; };
+		4BEBD6FA199A0EC2002C5AD1 /* questionnaire_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BEBD6F9199A0EC2002C5AD1 /* questionnaire_bg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BEBD6D31999E5E3002C5AD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BEBD6AB1999E5E3002C5AD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BEBD6B21999E5E3002C5AD1;
+			remoteInfo = TPColorPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BEBD6B31999E5E3002C5AD1 /* TPColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BEBD6B61999E5E3002C5AD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4BEBD6B81999E5E3002C5AD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4BEBD6BA1999E5E3002C5AD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4BEBD6BE1999E5E3002C5AD1 /* TPColorPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TPColorPicker-Info.plist"; sourceTree = "<group>"; };
+		4BEBD6C01999E5E3002C5AD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4BEBD6C21999E5E3002C5AD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BEBD6C41999E5E3002C5AD1 /* TPColorPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TPColorPicker-Prefix.pch"; sourceTree = "<group>"; };
+		4BEBD6C51999E5E3002C5AD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BEBD6C61999E5E3002C5AD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BEBD6C81999E5E3002C5AD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4BEBD6CE1999E5E3002C5AD1 /* TPColorPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPColorPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BEBD6CF1999E5E3002C5AD1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4BEBD6D71999E5E3002C5AD1 /* TPColorPickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TPColorPickerTests-Info.plist"; sourceTree = "<group>"; };
+		4BEBD6D91999E5E3002C5AD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4BEBD6DB1999E5E3002C5AD1 /* TPColorPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPColorPickerTests.m; sourceTree = "<group>"; };
+		4BEBD6E51999E5FC002C5AD1 /* RootViewCntrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewCntrl.h; sourceTree = "<group>"; };
+		4BEBD6E61999E5FC002C5AD1 /* RootViewCntrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewCntrl.m; sourceTree = "<group>"; };
+		4BEBD6E71999E5FC002C5AD1 /* RootViewCntrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewCntrl.xib; sourceTree = "<group>"; };
+		4BEBD6EA1999F392002C5AD1 /* PickerViewCntrlr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewCntrlr.h; sourceTree = "<group>"; };
+		4BEBD6EB1999F392002C5AD1 /* PickerViewCntrlr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewCntrlr.m; sourceTree = "<group>"; };
+		4BEBD6EC1999F392002C5AD1 /* PickerViewCntrlr.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerViewCntrlr.xib; sourceTree = "<group>"; };
+		4BEBD6F01999F401002C5AD1 /* nko_brightness_guide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nko_brightness_guide.png; sourceTree = "<group>"; };
+		4BEBD6F11999F401002C5AD1 /* nko_brightness_guide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nko_brightness_guide@2x.png"; sourceTree = "<group>"; };
+		4BEBD6F21999F401002C5AD1 /* nko_colormap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nko_colormap.png; sourceTree = "<group>"; };
+		4BEBD6F61999F406002C5AD1 /* NKOColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKOColorPickerView.h; sourceTree = "<group>"; };
+		4BEBD6F71999F406002C5AD1 /* NKOColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKOColorPickerView.m; sourceTree = "<group>"; };
+		4BEBD6F9199A0EC2002C5AD1 /* questionnaire_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = questionnaire_bg.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BEBD6B01999E5E3002C5AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEBD6B91999E5E3002C5AD1 /* CoreGraphics.framework in Frameworks */,
+				4BEBD6BB1999E5E3002C5AD1 /* UIKit.framework in Frameworks */,
+				4BEBD6B71999E5E3002C5AD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BEBD6CB1999E5E3002C5AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEBD6D01999E5E3002C5AD1 /* XCTest.framework in Frameworks */,
+				4BEBD6D21999E5E3002C5AD1 /* UIKit.framework in Frameworks */,
+				4BEBD6D11999E5E3002C5AD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BEBD6AA1999E5E3002C5AD1 = {
+			isa = PBXGroup;
+			children = (
+				4BEBD6BC1999E5E3002C5AD1 /* TPColorPicker */,
+				4BEBD6D51999E5E3002C5AD1 /* TPColorPickerTests */,
+				4BEBD6B51999E5E3002C5AD1 /* Frameworks */,
+				4BEBD6B41999E5E3002C5AD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BEBD6B41999E5E3002C5AD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BEBD6B31999E5E3002C5AD1 /* TPColorPicker.app */,
+				4BEBD6CE1999E5E3002C5AD1 /* TPColorPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BEBD6B51999E5E3002C5AD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BEBD6B61999E5E3002C5AD1 /* Foundation.framework */,
+				4BEBD6B81999E5E3002C5AD1 /* CoreGraphics.framework */,
+				4BEBD6BA1999E5E3002C5AD1 /* UIKit.framework */,
+				4BEBD6CF1999E5E3002C5AD1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BEBD6BC1999E5E3002C5AD1 /* TPColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4BEBD6C51999E5E3002C5AD1 /* AppDelegate.h */,
+				4BEBD6C61999E5E3002C5AD1 /* AppDelegate.m */,
+				4BEBD6E51999E5FC002C5AD1 /* RootViewCntrl.h */,
+				4BEBD6E61999E5FC002C5AD1 /* RootViewCntrl.m */,
+				4BEBD6E71999E5FC002C5AD1 /* RootViewCntrl.xib */,
+				4BEBD6EA1999F392002C5AD1 /* PickerViewCntrlr.h */,
+				4BEBD6EB1999F392002C5AD1 /* PickerViewCntrlr.m */,
+				4BEBD6EC1999F392002C5AD1 /* PickerViewCntrlr.xib */,
+				4BEBD6C81999E5E3002C5AD1 /* Images.xcassets */,
+				4BEBD6BD1999E5E3002C5AD1 /* Supporting Files */,
+			);
+			path = TPColorPicker;
+			sourceTree = "<group>";
+		};
+		4BEBD6BD1999E5E3002C5AD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BEBD6F9199A0EC2002C5AD1 /* questionnaire_bg.png */,
+				4BEBD6EF1999F3F0002C5AD1 /* Lib */,
+				4BEBD6BE1999E5E3002C5AD1 /* TPColorPicker-Info.plist */,
+				4BEBD6BF1999E5E3002C5AD1 /* InfoPlist.strings */,
+				4BEBD6C21999E5E3002C5AD1 /* main.m */,
+				4BEBD6C41999E5E3002C5AD1 /* TPColorPicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BEBD6D51999E5E3002C5AD1 /* TPColorPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BEBD6DB1999E5E3002C5AD1 /* TPColorPickerTests.m */,
+				4BEBD6D61999E5E3002C5AD1 /* Supporting Files */,
+			);
+			path = TPColorPickerTests;
+			sourceTree = "<group>";
+		};
+		4BEBD6D61999E5E3002C5AD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BEBD6D71999E5E3002C5AD1 /* TPColorPickerTests-Info.plist */,
+				4BEBD6D81999E5E3002C5AD1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BEBD6EF1999F3F0002C5AD1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				4BEBD6F61999F406002C5AD1 /* NKOColorPickerView.h */,
+				4BEBD6F71999F406002C5AD1 /* NKOColorPickerView.m */,
+				4BEBD6F01999F401002C5AD1 /* nko_brightness_guide.png */,
+				4BEBD6F11999F401002C5AD1 /* nko_brightness_guide@2x.png */,
+				4BEBD6F21999F401002C5AD1 /* nko_colormap.png */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BEBD6B21999E5E3002C5AD1 /* TPColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BEBD6DF1999E5E3002C5AD1 /* Build configuration list for PBXNativeTarget "TPColorPicker" */;
+			buildPhases = (
+				4BEBD6AF1999E5E3002C5AD1 /* Sources */,
+				4BEBD6B01999E5E3002C5AD1 /* Frameworks */,
+				4BEBD6B11999E5E3002C5AD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPColorPicker;
+			productName = TPColorPicker;
+			productReference = 4BEBD6B31999E5E3002C5AD1 /* TPColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BEBD6CD1999E5E3002C5AD1 /* TPColorPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BEBD6E21999E5E3002C5AD1 /* Build configuration list for PBXNativeTarget "TPColorPickerTests" */;
+			buildPhases = (
+				4BEBD6CA1999E5E3002C5AD1 /* Sources */,
+				4BEBD6CB1999E5E3002C5AD1 /* Frameworks */,
+				4BEBD6CC1999E5E3002C5AD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BEBD6D41999E5E3002C5AD1 /* PBXTargetDependency */,
+			);
+			name = TPColorPickerTests;
+			productName = TPColorPickerTests;
+			productReference = 4BEBD6CE1999E5E3002C5AD1 /* TPColorPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BEBD6AB1999E5E3002C5AD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = digicorp;
+				TargetAttributes = {
+					4BEBD6CD1999E5E3002C5AD1 = {
+						TestTargetID = 4BEBD6B21999E5E3002C5AD1;
+					};
+				};
+			};
+			buildConfigurationList = 4BEBD6AE1999E5E3002C5AD1 /* Build configuration list for PBXProject "TPColorPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4BEBD6AA1999E5E3002C5AD1;
+			productRefGroup = 4BEBD6B41999E5E3002C5AD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BEBD6B21999E5E3002C5AD1 /* TPColorPicker */,
+				4BEBD6CD1999E5E3002C5AD1 /* TPColorPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BEBD6B11999E5E3002C5AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEBD6F31999F401002C5AD1 /* nko_brightness_guide.png in Resources */,
+				4BEBD6C11999E5E3002C5AD1 /* InfoPlist.strings in Resources */,
+				4BEBD6F51999F401002C5AD1 /* nko_colormap.png in Resources */,
+				4BEBD6C91999E5E3002C5AD1 /* Images.xcassets in Resources */,
+				4BEBD6F41999F401002C5AD1 /* nko_brightness_guide@2x.png in Resources */,
+				4BEBD6E91999E5FC002C5AD1 /* RootViewCntrl.xib in Resources */,
+				4BEBD6FA199A0EC2002C5AD1 /* questionnaire_bg.png in Resources */,
+				4BEBD6EE1999F392002C5AD1 /* PickerViewCntrlr.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BEBD6CC1999E5E3002C5AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEBD6DA1999E5E3002C5AD1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BEBD6AF1999E5E3002C5AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEBD6C71999E5E3002C5AD1 /* AppDelegate.m in Sources */,
+				4BEBD6C31999E5E3002C5AD1 /* main.m in Sources */,
+				4BEBD6E81999E5FC002C5AD1 /* RootViewCntrl.m in Sources */,
+				4BEBD6F81999F406002C5AD1 /* NKOColorPickerView.m in Sources */,
+				4BEBD6ED1999F392002C5AD1 /* PickerViewCntrlr.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BEBD6CA1999E5E3002C5AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEBD6DC1999E5E3002C5AD1 /* TPColorPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BEBD6D41999E5E3002C5AD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BEBD6B21999E5E3002C5AD1 /* TPColorPicker */;
+			targetProxy = 4BEBD6D31999E5E3002C5AD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BEBD6BF1999E5E3002C5AD1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BEBD6C01999E5E3002C5AD1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4BEBD6D81999E5E3002C5AD1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BEBD6D91999E5E3002C5AD1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BEBD6DD1999E5E3002C5AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4BEBD6DE1999E5E3002C5AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BEBD6E01999E5E3002C5AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPColorPicker/TPColorPicker-Prefix.pch";
+				INFOPLIST_FILE = "TPColorPicker/TPColorPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4BEBD6E11999E5E3002C5AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPColorPicker/TPColorPicker-Prefix.pch";
+				INFOPLIST_FILE = "TPColorPicker/TPColorPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4BEBD6E31999E5E3002C5AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TPColorPicker.app/TPColorPicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPColorPicker/TPColorPicker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TPColorPickerTests/TPColorPickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4BEBD6E41999E5E3002C5AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TPColorPicker.app/TPColorPicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPColorPicker/TPColorPicker-Prefix.pch";
+				INFOPLIST_FILE = "TPColorPickerTests/TPColorPickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BEBD6AE1999E5E3002C5AD1 /* Build configuration list for PBXProject "TPColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BEBD6DD1999E5E3002C5AD1 /* Debug */,
+				4BEBD6DE1999E5E3002C5AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BEBD6DF1999E5E3002C5AD1 /* Build configuration list for PBXNativeTarget "TPColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BEBD6E01999E5E3002C5AD1 /* Debug */,
+				4BEBD6E11999E5E3002C5AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BEBD6E21999E5E3002C5AD1 /* Build configuration list for PBXNativeTarget "TPColorPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BEBD6E31999E5E3002C5AD1 /* Debug */,
+				4BEBD6E41999E5E3002C5AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BEBD6AB1999E5E3002C5AD1 /* Project object */;
+}
